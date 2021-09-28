@@ -1,0 +1,26 @@
+GIT COMMANDS
+$ git config --global user.name “Your name“
+$ git config --global user.email “youremail@yourdomain.com“
+$ git init
+$ git clone <url del repo>
+$ git status
+$ git add nombreDelArchivo.ext
+$ git rm --cached nombreDelArchivo.ext 
+$ git add .
+$ git commit –m “Mensaje descriptivo”
+$ git log
+$ git log --oneline
+$ git branch
+$ git branch -a
+$ git checkout –b <branch name>
+$ git checkout <commit>
+$ git revert <commit>
+$ git reset <commit>
+$ git reset –hard <commit>
+$ git merge <branch-name>
+$ git push
+$ git push --set-upstream origin <rama>
+$ git clone <url del repo>
+$ git pull origin master
+$ git push
+$ git fetch
